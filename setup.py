@@ -12,11 +12,11 @@ with open('requirements.txt') as f:
 
 setup(
     name='team.assets',
-    version='1.0',
+    version='0.0.1',
     author='team-polska',
     author_email='build.teamexport@gmail.com',
     description='Team asstes sync',
-    dependency_links=['https://teampypi.herokuapp.com/'],
+    dependency_links=['https://teampypi.herokuapp.com/packages/'],
     install_requires=required,
     url='https://github.com/slobodz/team.assets'
 )
